@@ -1,0 +1,7 @@
+.button-upload {
+    background-color: rgb(5, 5, 235);
+    padding: 16px 32px;
+    border-radius: 8px;
+    cursor: pointer;
+    color: azure;
+}
