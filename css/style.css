@@ -1,2 +1,7 @@
+/* GLOBAL */
 @import "global/normalize.css";
+
+/* BLOCKS */
 @import "blocks/button.css";
+@import "blocks/container.css";
+@import "blocks/header.css";

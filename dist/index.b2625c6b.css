@@ -191,4 +191,24 @@ template, [hidden] {
   border-radius: 8px;
   padding: 16px 32px;
 }
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.header {
+  background-color: #c98405;
+  width: 100%;
+  padding: 20px 0;
+}
+
+.header__title {
+  text-align: center;
+  color: #fdfdfd;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 40px;
+  line-height: 46px;
+}
 /*# sourceMappingURL=index.b2625c6b.css.map */

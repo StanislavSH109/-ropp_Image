@@ -1,0 +1,13 @@
+.header {
+    width: 100%;
+    background-color: rgb(201, 132, 5);
+    padding: 20px 0;
+}
+
+.header__title {
+    font-family: 'Verdana', 'Arial', sans-serif;
+    font-size: 40px;
+    line-height: 46px;
+    text-align: center;
+    color:  rgb(253, 253, 253);
+}

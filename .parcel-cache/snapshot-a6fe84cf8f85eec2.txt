@@ -1,4 +1,4 @@
-4253
+4252
 100D:\FRONTEND\TypeScript\1_module__Cropping__Image\node_modules\entities\lib\decode_codepoint.d.ts.map133769435296258367 0
 87D:\FRONTEND\TypeScript\1_module__Cropping__Image\node_modules\@swc\types\assumptions.js133769435277672037 0
 105D:\FRONTEND\TypeScript\1_module__Cropping__Image\node_modules\posthtml\node_modules\domutils\lib\feeds.js133769435278348616 0
@@ -21,7 +21,7 @@
 85D:\FRONTEND\TypeScript\1_module__Cropping__Image\node_modules\semver\functions\inc.js133769435294326040 0
 101D:\FRONTEND\TypeScript\1_module__Cropping__Image\node_modules\caniuse-lite\data\features\autofocus.js133769435303445752 0
 121D:\FRONTEND\TypeScript\1_module__Cropping__Image\node_modules\lmdb\dependencies\lmdb-data-v1\libraries\liblmdb\mdb_load.c133769435303511347 0
-53D:\FRONTEND\TypeScript\1_module__Cropping__Image\dist133769625336813568 1
+53D:\FRONTEND\TypeScript\1_module__Cropping__Image\dist133770053324621108 1
 91D:\FRONTEND\TypeScript\1_module__Cropping__Image\node_modules\@parcel\profiler\lib\index.js133769435279544498 0
 137D:\FRONTEND\TypeScript\1_module__Cropping__Image\node_modules\@parcel\package-manager\test\fixtures\has-foo\node_modules\foo\package.json133769435300265463 0
 109D:\FRONTEND\TypeScript\1_module__Cropping__Image\node_modules\caniuse-lite\data\features\css-marker-pseudo.js133769435314785130 0
@@ -65,7 +65,7 @@
 88D:\FRONTEND\TypeScript\1_module__Cropping__Image\node_modules\@parcel\feature-flags\test133769579391402111 1
 101D:\FRONTEND\TypeScript\1_module__Cropping__Image\node_modules\caniuse-lite\data\features\dom-range.js133769435317545614 0
 96D:\FRONTEND\TypeScript\1_module__Cropping__Image\node_modules\lmdb\dependencies\lz4\lib\xxhash.h133769435311425291 0
-59D:\FRONTEND\TypeScript\1_module__Cropping__Image\index.html133769625334385754 0
+59D:\FRONTEND\TypeScript\1_module__Cropping__Image\index.html133769630967166955 0
 99D:\FRONTEND\TypeScript\1_module__Cropping__Image\node_modules\posthtml\node_modules\htmlparser2\lib133769579591685213 1
 111D:\FRONTEND\TypeScript\1_module__Cropping__Image\node_modules\@parcel\core\test\fixtures\invalid-source-missing133769579385965390 1
 89D:\FRONTEND\TypeScript\1_module__Cropping__Image\node_modules\domelementtype\package.json133769435286091591 0
@@ -272,7 +272,7 @@
 105D:\FRONTEND\TypeScript\1_module__Cropping__Image\node_modules\@parcel\core\test\fixtures\config-malformed133769579384140368 1
 85D:\FRONTEND\TypeScript\1_module__Cropping__Image\node_modules\semver\functions\gte.js133769435293275958 0
 73D:\FRONTEND\TypeScript\1_module__Cropping__Image\node_modules\is-arrayish133769579547545930 1
-82D:\FRONTEND\TypeScript\1_module__Cropping__Image\node_modules\cropperjs\src\images133769579525060475 1
+82D:\FRONTEND\TypeScript\1_module__Cropping__Image\node_modules\cropperjs\src\images133770055984534175 1
 97D:\FRONTEND\TypeScript\1_module__Cropping__Image\node_modules\type-fest\source\promise-value.d.ts133769435298256031 0
 112D:\FRONTEND\TypeScript\1_module__Cropping__Image\node_modules\posthtml\node_modules\htmlparser2\lib\Tokenizer.js133769435286331569 0
 116D:\FRONTEND\TypeScript\1_module__Cropping__Image\node_modules\@swc\helpers\esm\_class_check_private_static_access.js133769435308604350 0
@@ -904,7 +904,7 @@
 93D:\FRONTEND\TypeScript\1_module__Cropping__Image\node_modules\caniuse-lite\data\regions\BY.js133769435307724369 0
 117D:\FRONTEND\TypeScript\1_module__Cropping__Image\node_modules\posthtml\node_modules\dom-serializer\lib\index.d.ts.map133769435292175982 0
 75D:\FRONTEND\TypeScript\1_module__Cropping__Image\node_modules\semver\ranges133769579597713986 1
-64D:\FRONTEND\TypeScript\1_module__Cropping__Image\dist\index.html133769625336735366 0
+64D:\FRONTEND\TypeScript\1_module__Cropping__Image\dist\index.html133770052925871056 0
 150D:\FRONTEND\TypeScript\1_module__Cropping__Image\node_modules\posthtml\node_modules\dom-serializer\node_modules\entities\lib\decode_codepoint.d.ts.map133769435292225994 0
 78D:\FRONTEND\TypeScript\1_module__Cropping__Image\node_modules\semver\README.md133769435303669377 0
 107D:\FRONTEND\TypeScript\1_module__Cropping__Image\node_modules\caniuse-lite\data\features\css-paged-media.js133769435315405116 0
@@ -1201,7 +1201,7 @@
 106D:\FRONTEND\TypeScript\1_module__Cropping__Image\node_modules\posthtml\node_modules\entities\lib\encode.js133769435289989960 0
 101D:\FRONTEND\TypeScript\1_module__Cropping__Image\node_modules\caniuse-lite\data\features\css-masks.js133769435314795125 0
 86D:\FRONTEND\TypeScript\1_module__Cropping__Image\node_modules\domutils\lib\legacy.d.ts133769435304767310 0
-92D:\FRONTEND\TypeScript\1_module__Cropping__Image\node_modules\cropperjs\src\css\cropper.scss133769407189932013 0
+92D:\FRONTEND\TypeScript\1_module__Cropping__Image\node_modules\cropperjs\src\css\cropper.scss133770056982317325 0
 111D:\FRONTEND\TypeScript\1_module__Cropping__Image\node_modules\posthtml\node_modules\entities\lib\index.d.ts.map133769435295495955 0
 97D:\FRONTEND\TypeScript\1_module__Cropping__Image\node_modules\caniuse-lite\data\regions\alt-ww.js133769435296824687 0
 88D:\FRONTEND\TypeScript\1_module__Cropping__Image\node_modules\@parcel\watcher\wrapper.js133769435302175471 0
@@ -1240,7 +1240,7 @@
 109D:\FRONTEND\TypeScript\1_module__Cropping__Image\node_modules\caniuse-lite\data\features\createimagebitmap.js133769435310799543 0
 113D:\FRONTEND\TypeScript\1_module__Cropping__Image\node_modules\posthtml\node_modules\domutils\lib\helpers.d.ts.map133769435292355969 0
 103D:\FRONTEND\TypeScript\1_module__Cropping__Image\node_modules\@swc\helpers\cjs\_non_iterable_spread.cjs133769435304959536 0
-91D:\FRONTEND\TypeScript\1_module__Cropping__Image\node_modules\cropperjs\src\css\cropper.css133769407185770408 0
+91D:\FRONTEND\TypeScript\1_module__Cropping__Image\node_modules\cropperjs\src\css\cropper.css133770055443429522 0
 107D:\FRONTEND\TypeScript\1_module__Cropping__Image\node_modules\posthtml\node_modules\domutils\lib\helpers.js133769435279694414 0
 91D:\FRONTEND\TypeScript\1_module__Cropping__Image\node_modules\@parcel\utils\src\throttle.js133769435306304370 0
 93D:\FRONTEND\TypeScript\1_module__Cropping__Image\node_modules\caniuse-lite\data\regions\CO.js133769435308894289 0
@@ -1852,7 +1852,7 @@
 85D:\FRONTEND\TypeScript\1_module__Cropping__Image\node_modules\json5\dist\index.min.js133769435285811588 0
 104D:\FRONTEND\TypeScript\1_module__Cropping__Image\node_modules\json-parse-even-better-errors\CHANGELOG.md133769435278858614 0
 74D:\FRONTEND\TypeScript\1_module__Cropping__Image\node_modules\js-yaml\dist133769579551226812 1
-68D:\FRONTEND\TypeScript\1_module__Cropping__Image\dist\1.d33eedc4.jpg133769625165305081 0
+68D:\FRONTEND\TypeScript\1_module__Cropping__Image\dist\1.d33eedc4.jpg133770052914529361 0
 85D:\FRONTEND\TypeScript\1_module__Cropping__Image\node_modules\js-yaml\lib\type\map.js133769435296045130 0
 98D:\FRONTEND\TypeScript\1_module__Cropping__Image\node_modules\htmlparser2\lib\esm\Tokenizer.js.map133769435296694702 0
 99D:\FRONTEND\TypeScript\1_module__Cropping__Image\node_modules\dom-serializer\lib\esm\index.d.ts.map133769435291175456 0
@@ -1890,10 +1890,10 @@
 78D:\FRONTEND\TypeScript\1_module__Cropping__Image\node_modules\@swc\helpers\src133769579453767418 1
 122D:\FRONTEND\TypeScript\1_module__Cropping__Image\node_modules\htmlnano\docs\versioned_docs\version-1.1.1\060-contribute.md133769435305766396 0
 88D:\FRONTEND\TypeScript\1_module__Cropping__Image\node_modules\js-yaml\lib\schema\core.js133769435286291583 0
+93D:\FRONTEND\TypeScript\1_module__Cropping__Image\node_modules\domutils\lib\esm\stringify.d.ts133769435305265102 0
+88D:\FRONTEND\TypeScript\1_module__Cropping__Image\node_modules\@parcel\compressor-raw\src133769579375740203 1
 92D:\FRONTEND\TypeScript\1_module__Cropping__Image\node_modules\js-yaml\lib\schema\failsafe.js133769435290766966 0
 109D:\FRONTEND\TypeScript\1_module__Cropping__Image\node_modules\@parcel\transformer-json\src\JSONTransformer.js133769435279844380 0
-88D:\FRONTEND\TypeScript\1_module__Cropping__Image\node_modules\@parcel\compressor-raw\src133769579375740203 1
-93D:\FRONTEND\TypeScript\1_module__Cropping__Image\node_modules\domutils\lib\esm\stringify.d.ts133769435305265102 0
 88D:\FRONTEND\TypeScript\1_module__Cropping__Image\node_modules\js-yaml\lib\schema\json.js133769435295305958 0
 101D:\FRONTEND\TypeScript\1_module__Cropping__Image\node_modules\@swc\helpers\src\_non_iterable_rest.mjs133769435316060422 0
 85D:\FRONTEND\TypeScript\1_module__Cropping__Image\node_modules\js-yaml\dist\js-yaml.js133769435294295951 0
@@ -2401,8 +2401,6 @@
 107D:\FRONTEND\TypeScript\1_module__Cropping__Image\node_modules\caniuse-lite\data\features\mutation-events.js133769435332405113 0
 99D:\FRONTEND\TypeScript\1_module__Cropping__Image\node_modules\@swc\helpers\esm\_write_only_error.js133769435312045123 0
 91D:\FRONTEND\TypeScript\1_module__Cropping__Image\node_modules\cropperjs\src\js\utilities.js133769407189846576 0
-89D:\FRONTEND\TypeScript\1_module__Cropping__Image\node_modules\cropperjs\src\images\bg.png133769407189911994 0
-100D:\FRONTEND\TypeScript\1_module__Cropping__Image\node_modules\@parcel\utils\src\isDirectoryInside.js133769435304086941 0
 78D:\FRONTEND\TypeScript\1_module__Cropping__Image\node_modules\cosmiconfig\dist133769579522527505 1
 86D:\FRONTEND\TypeScript\1_module__Cropping__Image\node_modules\cosmiconfig\package.json133769435293625957 0
 83D:\FRONTEND\TypeScript\1_module__Cropping__Image\node_modules\@parcel\profiler\test133769579405519804 1
@@ -3642,7 +3640,7 @@
 90D:\FRONTEND\TypeScript\1_module__Cropping__Image\node_modules\@parcel\workers\src\child.js133769435288584439 0
 103D:\FRONTEND\TypeScript\1_module__Cropping__Image\node_modules\@parcel\node-resolver-core\lib\Wrapper.js133769435287216665 0
 95D:\FRONTEND\TypeScript\1_module__Cropping__Image\node_modules\@parcel\workers\src\childState.js133769435290159626 0
-76D:\FRONTEND\TypeScript\1_module__Cropping__Image\dist\index.b2625c6b.css.map133769625165655081 0
+76D:\FRONTEND\TypeScript\1_module__Cropping__Image\dist\index.b2625c6b.css.map133770053324611205 0
 104D:\FRONTEND\TypeScript\1_module__Cropping__Image\node_modules\@parcel\transformer-babel\src\constants.js133769435292076046 0
 91D:\FRONTEND\TypeScript\1_module__Cropping__Image\node_modules\@parcel\workers\src\Handle.js133769435295495955 0
 89D:\FRONTEND\TypeScript\1_module__Cropping__Image\node_modules\@parcel\workers\src\process133769579436299689 1
@@ -3736,6 +3734,7 @@
 99D:\FRONTEND\TypeScript\1_module__Cropping__Image\node_modules\@parcel\transformer-json\package.json133769435283786473 0
 94D:\FRONTEND\TypeScript\1_module__Cropping__Image\node_modules\@parcel\utils\src\http-server.js133769435298165768 0
 88D:\FRONTEND\TypeScript\1_module__Cropping__Image\node_modules\@parcel\utils\src\index.js133769435303739904 0
+100D:\FRONTEND\TypeScript\1_module__Cropping__Image\node_modules\@parcel\utils\src\isDirectoryInside.js133769435304086941 0
 97D:\FRONTEND\TypeScript\1_module__Cropping__Image\node_modules\@parcel\utils\src\parseCSSImport.js133769435304607346 0
 123D:\FRONTEND\TypeScript\1_module__Cropping__Image\node_modules\@parcel\package-manager\test\getCurrentPackageManager.test.js133769435280014391 0
 120D:\FRONTEND\TypeScript\1_module__Cropping__Image\node_modules\@parcel\package-manager\test\fixtures\has-foo\package.json133769435300505455 0
@@ -4240,15 +4239,15 @@
 77D:\FRONTEND\TypeScript\1_module__Cropping__Image\node_modules\.bin\semver.ps1133769435343086815 0
 93D:\FRONTEND\TypeScript\1_module__Cropping__Image\node_modules\.bin\update-browserslist-db.cmd133769435343096818 0
 93D:\FRONTEND\TypeScript\1_module__Cropping__Image\node_modules\.bin\update-browserslist-db.ps1133769435343086815 0
-62D:\FRONTEND\TypeScript\1_module__Cropping__Image\js\buttons.js133769621352099115 0
+62D:\FRONTEND\TypeScript\1_module__Cropping__Image\js\buttons.js133770054155424654 0
 75D:\FRONTEND\TypeScript\1_module__Cropping__Image\dist\index.63aff760.js.map133769572488200138 0
-72D:\FRONTEND\TypeScript\1_module__Cropping__Image\dist\index.b2625c6b.css133769625165605063 0
-71D:\FRONTEND\TypeScript\1_module__Cropping__Image\dist\index.e981ebab.js133769625165495101 0
-75D:\FRONTEND\TypeScript\1_module__Cropping__Image\dist\index.e981ebab.js.map133769625165565060 0
-71D:\FRONTEND\TypeScript\1_module__Cropping__Image\dist\index.fbb3188c.js133769625336763545 0
-75D:\FRONTEND\TypeScript\1_module__Cropping__Image\dist\index.fbb3188c.js.map133769625336793566 0
-72D:\FRONTEND\TypeScript\1_module__Cropping__Image\dist\index.ff62ae2a.css133769625165605063 0
-76D:\FRONTEND\TypeScript\1_module__Cropping__Image\dist\index.ff62ae2a.css.map133769625165655081 0
-62D:\FRONTEND\TypeScript\1_module__Cropping__Image\css\style.css133769571773080036 0
+72D:\FRONTEND\TypeScript\1_module__Cropping__Image\dist\index.b2625c6b.css133770053324561223 0
+71D:\FRONTEND\TypeScript\1_module__Cropping__Image\dist\index.e981ebab.js133770052922311018 0
+75D:\FRONTEND\TypeScript\1_module__Cropping__Image\dist\index.e981ebab.js.map133770052922381080 0
+71D:\FRONTEND\TypeScript\1_module__Cropping__Image\dist\index.fbb3188c.js133770052922311018 0
+75D:\FRONTEND\TypeScript\1_module__Cropping__Image\dist\index.fbb3188c.js.map133770052922381080 0
+72D:\FRONTEND\TypeScript\1_module__Cropping__Image\dist\index.ff62ae2a.css133770052927246125 0
+76D:\FRONTEND\TypeScript\1_module__Cropping__Image\dist\index.ff62ae2a.css.map133770052927416022 0
+62D:\FRONTEND\TypeScript\1_module__Cropping__Image\css\style.css133770052907257814 0
 70D:\FRONTEND\TypeScript\1_module__Cropping__Image\css\blocks\button.css133769572372339194 0
-73D:\FRONTEND\TypeScript\1_module__Cropping__Image\css\blocks\container.css133769573268927247 0
+73D:\FRONTEND\TypeScript\1_module__Cropping__Image\css\blocks\container.css133770053319319831 0
