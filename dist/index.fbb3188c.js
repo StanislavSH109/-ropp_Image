@@ -588,9 +588,19 @@ function hmrAccept(bundle /*: ParcelRequire */ , id /*: string */ ) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 var _cropperjs = require("cropperjs");
 var _cropperjsDefault = parcelHelpers.interopDefault(_cropperjs);
-const image = document.getElementById('image');
-const cropper = new (0, _cropperjsDefault.default)(image, {
-    aspectRatio: 16 / 9
+document.addEventListener('DOMContentLoaded', ()=>{
+    const uploadButton = document.querySelector('.button__upload');
+    const downloadButton = document.querySelector('.button__download');
+    const image = document.querySelector('.view-window__photo');
+    uploadButton.addEventListener('change', (e)=>{
+        const file = e.target.files[0];
+        console.log(file);
+    });
+    const cropper = new (0, _cropperjsDefault.default)(image, {
+        aspectRatio: 1,
+        viewMode: 0,
+        preview: '.view-window__preview'
+    });
 });
 
 },{"cropperjs":"dBPeF","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"gkKU3":[function(require,module,exports,__globalThis) {

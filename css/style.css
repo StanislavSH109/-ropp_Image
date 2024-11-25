@@ -2,6 +2,7 @@
 @import "global/normalize.css";
 
 /* BLOCKS */
-@import "blocks/button.css";
+@import "blocks/buttons.css";
 @import "blocks/container.css";
 @import "blocks/header.css";
+@import "blocks/view-window.css";

@@ -1,0 +1,13 @@
+.view-window {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.view-window__preview {
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    border: 2px solid green;
+}

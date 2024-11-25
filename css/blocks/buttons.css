@@ -1,4 +1,7 @@
-.button-upload {
+.buttons {
+    margin: 20px 0;
+}
+.button-upload[input] {
     background-color: rgb(5, 5, 235);
     padding: 16px 32px;
     border-radius: 8px;
