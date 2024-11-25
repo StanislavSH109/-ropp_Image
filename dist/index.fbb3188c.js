@@ -588,14 +588,12 @@ function hmrAccept(bundle /*: ParcelRequire */ , id /*: string */ ) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 var _cropperjs = require("cropperjs");
 var _cropperjsDefault = parcelHelpers.interopDefault(_cropperjs);
-var _buttonsJs = require("./buttons.js");
 const image = document.getElementById('image');
 const cropper = new (0, _cropperjsDefault.default)(image, {
     aspectRatio: 16 / 9
 });
-(0, _buttonsJs.uploadImage)();
 
-},{"cropperjs":"dBPeF","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","./buttons.js":"03Ynz"}],"gkKU3":[function(require,module,exports,__globalThis) {
+},{"cropperjs":"dBPeF","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"gkKU3":[function(require,module,exports,__globalThis) {
 exports.interopDefault = function(a) {
     return a && a.__esModule ? a : {
         default: a
@@ -625,17 +623,6 @@ exports.export = function(dest, destName, get) {
     });
 };
 
-},{}],"03Ynz":[function(require,module,exports,__globalThis) {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "uploadImage", ()=>uploadImage);
-function uploadImage() {
-    const buttonUpload = document.querySelector('.button__upload');
-    buttonUpload.addEventListener('click', ()=>{
-        console.log("\u042D\u0442\u043E \u043A\u043D\u043E\u043F\u043A\u0430 \u0437\u0430\u0433\u0440\u0443\u0437\u043A\u0438");
-    });
-}
-
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}]},["iYWvF","bDbGG"], "bDbGG", "parcelRequire94c2")
+},{}]},["iYWvF","bDbGG"], "bDbGG", "parcelRequire94c2")
 
 //# sourceMappingURL=index.fbb3188c.js.map
