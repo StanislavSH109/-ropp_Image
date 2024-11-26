@@ -185,6 +185,7 @@ template, [hidden] {
 }
 
 .buttons {
+  justify-content: center;
   align-items: center;
   gap: 20px;
   margin: 20px 0;
@@ -209,7 +210,8 @@ input[type="file"] {
 }
 
 .container {
-  max-width: 800px;
+  max-width: 1440px;
+  max-height: 90vh;
   margin: 0 auto;
   padding: 20px;
 }

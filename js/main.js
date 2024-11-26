@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded',  () => {
 
             cropper = new Cropper(image, {
                 aspectRatio: 10 / 10,
-                viewMode: 0,
+                viewMode: 1,
                 preview: '.view-window__preview',
             });
         }
@@ -32,6 +32,19 @@ document.addEventListener('DOMContentLoaded',  () => {
             cropper.reset();
         } else {
             alert('Please, upload your image!');
+        }
+    });
+
+    downloadButton.addEventListener('click', () => {
+        if(cropper) {
+            const canvas = cropper.getCroppedCanvas();
+            const dataUrl =   canvas.toDataURL('image/png');
+            const link = document.createElement('a');
+            link.href = dataUrl;
+            link.download = 'file-cropped.png';
+            link.click();
+        } else {
+            alert('Please, upload and crop your image');
         }
     });
 });
