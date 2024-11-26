@@ -5,6 +5,7 @@ document.addEventListener('DOMContentLoaded',  () => {
     const downloadButton = document.querySelector('.button__download');
     const resetButton = document.querySelector('.button__reset');
     const image  = document.querySelector('.view-window__photo');
+    const viewWindow = document.querySelector('.view-window__preview');
     let cropper = null;
     
     uploadButton.addEventListener('change',  (e) => {
@@ -19,15 +20,13 @@ document.addEventListener('DOMContentLoaded',  () => {
                 cropper.destroy();
             }
 
+            viewWindow.classList.add('view-window__preview--active');
             cropper = new Cropper(image, {
                 aspectRatio: 10 / 10,
                 viewMode: 0,
                 preview: '.view-window__preview',
                 minCanvasHeight: 500,
                 minCanvasWidth: 300,
-                strict: true,
-
-    
             });
         }
     });

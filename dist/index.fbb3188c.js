@@ -604,6 +604,7 @@ document.addEventListener('DOMContentLoaded', ()=>{
     const downloadButton = document.querySelector('.button__download');
     const resetButton = document.querySelector('.button__reset');
     const image = document.querySelector('.view-window__photo');
+    const viewWindow = document.querySelector('.view-window__preview');
     let cropper = null;
     uploadButton.addEventListener('change', (e)=>{
         const file = e.target.files[0];
@@ -613,13 +614,13 @@ document.addEventListener('DOMContentLoaded', ()=>{
         }
         image.onload = ()=>{
             if (cropper) cropper.destroy();
+            viewWindow.classList.add('view-window__preview--active');
             cropper = new (0, _cropperjsDefault.default)(image, {
                 aspectRatio: 1,
                 viewMode: 0,
                 preview: '.view-window__preview',
                 minCanvasHeight: 500,
-                minCanvasWidth: 300,
-                strict: true
+                minCanvasWidth: 300
             });
         };
     });

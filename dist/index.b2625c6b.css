@@ -241,7 +241,12 @@ input[type="file"] {
   border: 2px solid green;
   width: 300px;
   height: 300px;
+  display: none;
   overflow: hidden;
+}
+
+.view-window__preview--active {
+  display: block;
 }
 
 .view-window__wrapper {
@@ -256,7 +261,7 @@ input[type="file"] {
 .view-window__photo {
   object-fit: contain;
   object-position: center;
-  width: 100%;
+  max-width: 100%;
   height: 100%;
 }
 /*# sourceMappingURL=index.b2625c6b.css.map */
