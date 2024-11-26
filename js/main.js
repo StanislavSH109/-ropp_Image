@@ -23,6 +23,7 @@ document.addEventListener('DOMContentLoaded',  () => {
                 aspectRatio: 10 / 10,
                 viewMode: 1,
                 preview: '.view-window__preview',
+                minCanvasHeight: 200
             });
         }
     });
@@ -39,6 +40,7 @@ document.addEventListener('DOMContentLoaded',  () => {
         if(cropper) {
             const canvas = cropper.getCroppedCanvas();
             const dataUrl =   canvas.toDataURL('image/png');
+            console.log(cropper);
             const link = document.createElement('a');
             link.href = dataUrl;
             link.download = 'file-cropped.png';
