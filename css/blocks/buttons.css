@@ -1,10 +1,26 @@
 .buttons {
     margin: 20px 0;
 }
-.button-upload[input] {
+.button__download {
+    font-family: 'Segoe UI', 'Arial', sans-serif;
+    font-weight: 500;
     background-color: rgb(5, 5, 235);
-    padding: 16px 32px;
+    padding: 12px 24px;
     border-radius: 8px;
     cursor: pointer;
     color: azure;
+}
+
+.button__upload-label {
+    font-family: 'Segoe UI', 'Arial', sans-serif;
+    font-weight: 500;
+    background-color: rgb(5, 5, 235);
+    padding: 12px 24px;
+    border-radius: 8px;
+    cursor: pointer;
+    color: azure;
+}
+
+input[type=file] {
+    display: none;
 }
