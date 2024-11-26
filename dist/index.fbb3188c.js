@@ -593,17 +593,21 @@ document.addEventListener('DOMContentLoaded', ()=>{
     const downloadButton = document.querySelector('.button__download');
     const resetButton = document.querySelector('.button__reset');
     const image = document.querySelector('.view-window__photo');
+    let cropper = null;
     uploadButton.addEventListener('change', (e)=>{
         const file = e.target.files[0];
-        const imgElement = document.querySelector('.view-window__photo');
-        imgElement.src = `/img/${file.name}`;
-        console.log(imgElement.src);
-    });
-    const cropper = new (0, _cropperjsDefault.default)(image, {
-        aspectRatio: 1,
-        viewMode: 0,
-        preview: '.view-window__preview',
-        restore: false
+        if (file) {
+            const blobUrl = URL.createObjectURL(file);
+            image.src = blobUrl;
+        }
+        image.onload = ()=>{
+            if (cropper) cropper.destroy();
+            cropper = new (0, _cropperjsDefault.default)(image, {
+                aspectRatio: 1,
+                viewMode: 0,
+                preview: '.view-window__preview'
+            });
+        };
     });
     resetButton.addEventListener('click', ()=>{
         if (cropper) cropper.reset();

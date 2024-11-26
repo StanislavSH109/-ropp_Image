@@ -5,21 +5,26 @@ document.addEventListener('DOMContentLoaded',  () => {
     const downloadButton = document.querySelector('.button__download');
     const resetButton = document.querySelector('.button__reset');
     const image  = document.querySelector('.view-window__photo');
+    let cropper = null;
     
-
     uploadButton.addEventListener('change',  (e) => {
         const file = e.target.files[0];
-        const imgElement = document.querySelector('.view-window__photo');
-        imgElement.src = `/img/${file.name}`;
-        console.log(imgElement.src);
-    });
+        if(file) {
+            const blobUrl = URL.createObjectURL(file);
+            image.src = blobUrl;
+        }
 
-    const cropper = new Cropper(image, {
-        aspectRatio: 10 / 10,
-        viewMode: 0,
-        preview: '.view-window__preview',
-        restore: false
+        image.onload = () => {
+            if(cropper) {
+                cropper.destroy();
+            }
 
+            cropper = new Cropper(image, {
+                aspectRatio: 10 / 10,
+                viewMode: 0,
+                preview: '.view-window__preview',
+            });
+        }
     });
 
     resetButton.addEventListener('click', () => {
