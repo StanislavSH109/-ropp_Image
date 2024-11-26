@@ -21,9 +21,13 @@ document.addEventListener('DOMContentLoaded',  () => {
 
             cropper = new Cropper(image, {
                 aspectRatio: 10 / 10,
-                viewMode: 1,
+                viewMode: 0,
                 preview: '.view-window__preview',
-                minCanvasHeight: 200
+                minCanvasHeight: 500,
+                minCanvasWidth: 300,
+                strict: true,
+
+    
             });
         }
     });

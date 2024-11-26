@@ -615,9 +615,11 @@ document.addEventListener('DOMContentLoaded', ()=>{
             if (cropper) cropper.destroy();
             cropper = new (0, _cropperjsDefault.default)(image, {
                 aspectRatio: 1,
-                viewMode: 1,
+                viewMode: 0,
                 preview: '.view-window__preview',
-                minCanvasHeight: 200
+                minCanvasHeight: 500,
+                minCanvasWidth: 300,
+                strict: true
             });
         };
     });
