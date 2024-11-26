@@ -218,8 +218,11 @@ input[type="file"] {
 
 .header {
   background-color: #c98405;
+  justify-content: center;
+  align-items: center;
   width: 100%;
   padding: 20px 0;
+  display: flex;
 }
 
 .header__title {
@@ -228,6 +231,14 @@ input[type="file"] {
   font-family: Verdana, Arial, sans-serif;
   font-size: 40px;
   line-height: 46px;
+}
+
+.header__img {
+  width: 250px;
+  height: 250px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
 }
 
 .view-window {
