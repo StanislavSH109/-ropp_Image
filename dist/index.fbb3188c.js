@@ -594,7 +594,8 @@ document.addEventListener('DOMContentLoaded', ()=>{
     const image = document.querySelector('.view-window__photo');
     uploadButton.addEventListener('change', (e)=>{
         const file = e.target.files[0];
-        console.log(file);
+        const imgElement = document.querySelector('.view-window__photo');
+        console.log(imgElement.src = file);
     });
     const cropper = new (0, _cropperjsDefault.default)(image, {
         aspectRatio: 1,

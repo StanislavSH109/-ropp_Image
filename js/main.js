@@ -7,7 +7,8 @@ document.addEventListener('DOMContentLoaded',  () => {
     
     uploadButton.addEventListener('change',  (e) => {
         const file = e.target.files[0];
-        console.log(file);
+        const imgElement = document.querySelector('.view-window__photo');
+        console.log(imgElement.src = file);
     });
 
     const cropper = new Cropper(image, {
