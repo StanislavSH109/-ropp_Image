@@ -591,16 +591,23 @@ var _cropperjsDefault = parcelHelpers.interopDefault(_cropperjs);
 document.addEventListener('DOMContentLoaded', ()=>{
     const uploadButton = document.querySelector('.button__upload');
     const downloadButton = document.querySelector('.button__download');
+    const resetButton = document.querySelector('.button__reset');
     const image = document.querySelector('.view-window__photo');
     uploadButton.addEventListener('change', (e)=>{
         const file = e.target.files[0];
         const imgElement = document.querySelector('.view-window__photo');
-        console.log(imgElement.src = file);
+        imgElement.src = `/img/${file.name}`;
+        console.log(imgElement.src);
     });
     const cropper = new (0, _cropperjsDefault.default)(image, {
         aspectRatio: 1,
         viewMode: 0,
-        preview: '.view-window__preview'
+        preview: '.view-window__preview',
+        restore: false
+    });
+    resetButton.addEventListener('click', ()=>{
+        if (cropper) cropper.reset();
+        else alert('Please, upload your image!');
     });
 });
 
