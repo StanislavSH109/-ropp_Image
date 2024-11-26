@@ -597,7 +597,7 @@ function hmrAccept(bundle /*: ParcelRequire */ , id /*: string */ ) {
 
 },{}],"bDbGG":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-var _cropperjs = require("cropperjs");
+var _cropperjs = require("../node_modules/cropperjs");
 var _cropperjsDefault = parcelHelpers.interopDefault(_cropperjs);
 document.addEventListener('DOMContentLoaded', ()=>{
     const uploadButton = document.querySelector('.button__upload');
@@ -641,7 +641,7 @@ document.addEventListener('DOMContentLoaded', ()=>{
     });
 });
 
-},{"cropperjs":"dBPeF","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"gkKU3":[function(require,module,exports,__globalThis) {
+},{"../node_modules/cropperjs":"dBPeF","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"gkKU3":[function(require,module,exports,__globalThis) {
 exports.interopDefault = function(a) {
     return a && a.__esModule ? a : {
         default: a

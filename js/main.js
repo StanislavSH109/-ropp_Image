@@ -1,4 +1,4 @@
-import Cropper from 'cropperjs';
+import Cropper from "../node_modules/cropperjs";
 
 document.addEventListener('DOMContentLoaded',  () => {
     const uploadButton = document.querySelector('.button__upload');
