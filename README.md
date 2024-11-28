@@ -1,7 +1,7 @@
 <h1 align="center">Cropping Image</h1>
 <p align="center">Creating mini-app for cropping image files</p>
 <p align="center">
-  <a href="https://ibb.co/jrWrsnX"><img src="https://i.ibb.co/71R1Lsm/Screenshot-4.jpg" alt="Screenshot-4" border="0"></a>
+  <a href="https://ibb.co/jrWrsnX"><img width="750" height="350" src="https://i.ibb.co/71R1Lsm/Screenshot-4.jpg" alt="Screenshot-4" border="0"></a>
 </p>
 
 <h2>Main functions</h2>
